@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="game">
+      <h1 class="title">Rock Paper Scissors</h1>
+      <button class="resetBtn" id="resetBtn">RESET THE TOUR</button>
+      <div class="scores">
+        <div class="score">Player Score: <span id="player">0</span></div>
+        <div class="score">Computer Score: <span id="computer">0</span></div>
+      </div>
+      <div class="choice">
+        <div id="playerChoice" class="logo"></div>
+        <div id="vs" class="vs">VS</div>
+        <div id="computerChoice" class="logo"></div>
+      </div>
+      <div id="resultText" class="resultText"></div>
+      <div class="daapatarave">Choose your move: rock, paper or scissors?</div>
+      <div class="btns">
+        <button class="rockBtn choiceBtn" id="rock">Rock</button>
+        <button class="paperBtn choiceBtn" id="paper">Paper</button>
+        <button class="scissorsBtn choiceBtn" id="scissors">Scissors</button>
+      </div>
+      <div class="history">
+        <h2>Game History</h2>
+        <ul id="list"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="game.js"></script>
+</html>
