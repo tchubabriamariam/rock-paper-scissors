@@ -37,7 +37,7 @@ function game(player) {
     printRes = "🤝  It Is A Draw!";
     resultText.classList.add("draw");
   } else if (
-    (player == "rock" && computer == "paper") ||
+    (player == "rock" && computer == "scissors") ||
     (player == "scissors" && computer == "paper") ||
     (player == "paper" && computer == "rock")
   ) {
