@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.game {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+  text-align: center;
+  width: 800px;
+  overflow: hidden;
+}
+
+.title {
+  color: blue;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.resetBtn {
+  color: red;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  background-color: white;
+  letter-spacing: 1px;
+}
+
+.resetBtn:hover {
+  font-weight: bold;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+}
+.score {
+  text-transform: uppercase;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+}
+
+.vs {
+  font-weight: bold;
+}
+
+.resultText {
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.win {
+  color: green;
+}
+.lose {
+  color: red;
+}
+.draw {
+  color: orange;
+}
+
+.choiceBtn {
+  width: 120px;
+  background-color: red;
+  color: white;
+  border: 0.5px solid white;
+  border-radius: 12px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin-top: 30px;
+  text-transform: uppercase;
+  margin-left: 15px;
+  margin-right: 5px;
+
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.choiceBtn:hover {
+  background-color: rgb(210, 1, 1);
+}
+
+.history {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 30px;
+  overflow-y: scroll;
+  max-height: 120px;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.history h2 {
+  color: green;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.daapatarave {
+  font-size: 14px;
+}
+
+/* .game {
+  height: 660.5px;
+  min-height: 660.5px;
+  max-height: 660.5px;
+} */
